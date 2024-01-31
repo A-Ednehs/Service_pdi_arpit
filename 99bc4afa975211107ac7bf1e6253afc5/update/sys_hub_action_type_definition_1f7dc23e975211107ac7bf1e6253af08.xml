@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls>ad93739697e211107ac7bf1e6253afe5</acls>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>true</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>get_a_dad_joke</internal_name>
+        <label_cache>[{"name":"{{step[451e4b4d-21fe-43af-bdc7-49b1760ebb7b].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>0e94b7d697e211107ac7bf1e6253afe1</master_snapshot>
+        <name>GET a DAD JOKE</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-06 11:36:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f7dc23e975211107ac7bf1e6253af08</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>GET a DAD JOKE</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1f7dc23e975211107ac7bf1e6253af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>1f7dc23e975211107ac7bf1e6253af08</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3632b71697e211107ac7bf1e6253afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">fe32b71697e211107ac7bf1e6253afd1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>1f7dc23e975211107ac7bf1e6253af08</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>f632b71697e211107ac7bf1e6253afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">7232b71697e211107ac7bf1e6253afd8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>1f7dc23e975211107ac7bf1e6253af08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3e32b71697e211107ac7bf1e6253afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</table>
+        <value>{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>1f7dc23e975211107ac7bf1e6253af08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>b232b71697e211107ac7bf1e6253afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>1f7dc23e975211107ac7bf1e6253af08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>fe32b71697e211107ac7bf1e6253afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1f7dc23e975211107ac7bf1e6253af08^sys_idNOT IN3232b71697e211107ac7bf1e6253af91,a232b71697e211107ac7bf1e6253af60"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</action>
+        <cid>1b8d2dee-f12f-4dd9-9465-fb14958ffdb0</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3232b71697e211107ac7bf1e6253af91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3232b71697e211107ac7bf1e6253af91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3232b71697e211107ac7bf1e6253af91</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3632b71697e211107ac7bf1e6253afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"R7UfaahVfFd"},{"name":"joke","children":[],"type":"string","jpath":"$.joke","previewValue":"My dog used to chase people on a bike a lot. It got so bad I had to take his bike away."},{"name":"status","children":[],"type":"string","jpath":"$.status","previewValue":"200"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3232b71697e211107ac7bf1e6253af91</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>f632b71697e211107ac7bf1e6253afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>{&#13;
+  "id": "R7UfaahVfFd",&#13;
+  "joke": "My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",&#13;
+  "status": 200&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3232b71697e211107ac7bf1e6253af91^id=3232b71697e211107ac7bf1e6253af91"/>
+    <sys_element_mapping action="delete_multiple" query="id=3232b71697e211107ac7bf1e6253af91"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>3232b71697e211107ac7bf1e6253af91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>b232b71697e211107ac7bf1e6253afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>3232b71697e211107ac7bf1e6253af91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>fe32b71697e211107ac7bf1e6253afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[451e4b4d-21fe-43af-bdc7-49b1760ebb7b].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>3232b71697e211107ac7bf1e6253af91</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3e32b71697e211107ac7bf1e6253afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3232b71697e211107ac7bf1e6253af91"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3232b71697e211107ac7bf1e6253af91^sys_idNOT IN3e32b71697e211107ac7bf1e6253af98"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDfa32b7164ae21110df7ec07bde419894,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0a2534f9-6c8d-41d3-8a18-200e6cf67e6d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">3232b71697e211107ac7bf1e6253af91</model>
+        <model_id>3232b71697e211107ac7bf1e6253af91</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3232b71697e211107ac7bf1e6253af91</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3e32b71697e211107ac7bf1e6253af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3232b71697e211107ac7bf1e6253af91^sys_idNOT IN3632b71697e211107ac7bf1e6253afa1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>3232b71697e211107ac7bf1e6253af91</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3632b71697e211107ac7bf1e6253afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3232b71697e211107ac7bf1e6253af91^sys_idNOT IN3632b71697e211107ac7bf1e6253af9f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_3232b71697e211107ac7bf1e6253af91</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>3632b71697e211107ac7bf1e6253af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</action>
+        <cid>451e4b4d-21fe-43af-bdc7-49b1760ebb7b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:50</sys_created_on>
+        <sys_id>a232b71697e211107ac7bf1e6253af60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a232b71697e211107ac7bf1e6253af60"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:05:44</sys_created_on>
+        <sys_id>237437d697e211107ac7bf1e6253af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:05:44</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>2e32b71697e211107ac7bf1e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>6632b71697e211107ac7bf1e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>6a32b71697e211107ac7bf1e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>6a32b71697e211107ac7bf1e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"User-Agent","value":"me-getJoke-app﻿"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:10</sys_created_on>
+        <sys_id>7994b7d697e211107ac7bf1e6253af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:10</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>a232b71697e211107ac7bf1e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>a632b71697e211107ac7bf1e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>e232b71697e211107ac7bf1e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a232b71697e211107ac7bf1e6253af60</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>ee32b71697e211107ac7bf1e6253af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <value>https://icanhazdadjoke.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=a232b71697e211107ac7bf1e6253af60"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a232b71697e211107ac7bf1e6253af60"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a232b71697e211107ac7bf1e6253af60"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a232b71697e211107ac7bf1e6253af60"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a232b71697e211107ac7bf1e6253af60"/>
+    <sys_hub_action_input action="delete_multiple" query="model=1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1f7dc23e975211107ac7bf1e6253af08^sys_idNOT IN7232b71697e211107ac7bf1e6253afd8,f632b71697e211107ac7bf1e6253afa7,fe32b71697e211107ac7bf1e6253afd1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=69467141-ddba-42f0-98cd-56c64f6c31fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</model>
+        <model_id>1f7dc23e975211107ac7bf1e6253af08</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>7232b71697e211107ac7bf1e6253afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7232b71697e211107ac7bf1e6253afd8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7232b71697e211107ac7bf1e6253afd8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD3632b71691e21110d1e3e130b18478a5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=1b8d2dee-f12f-4dd9-9465-fb14958ffdb0,sourceType=step,sourceUiUniqueId=0a2534f9-6c8d-41d3-8a18-200e6cf67e6d,uiType=object,uiTypeLabel=Object,uiUniqueId=cb9f07a2-6ac9-4b2b-a7e0-c957116d831e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</model>
+        <model_id>1f7dc23e975211107ac7bf1e6253af08</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>f632b71697e211107ac7bf1e6253afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f632b71697e211107ac7bf1e6253afa7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f632b71697e211107ac7bf1e6253afa7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=6e7e20bd-b405-46fc-bcd1-34ad35047ea6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</model>
+        <model_id>1f7dc23e975211107ac7bf1e6253af08</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>fe32b71697e211107ac7bf1e6253afd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fe32b71697e211107ac7bf1e6253afd1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fe32b71697e211107ac7bf1e6253afd1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1f7dc23e975211107ac7bf1e6253af08^sys_idNOT INfe32b71697e211107ac7bf1e6253afe0"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>fe32b71697e211107ac7bf1e6253afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fe32b71697e211107ac7bf1e6253afe0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08^sys_idNOT IN7232b71697e211107ac7bf1e6253afd1,7232b71697e211107ac7bf1e6253afdb,f232b71697e211107ac7bf1e6253afd7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>7232b71697e211107ac7bf1e6253afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>7232b71697e211107ac7bf1e6253afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:55:51</sys_created_on>
+        <sys_id>f232b71697e211107ac7bf1e6253afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:55:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1f7dc23e975211107ac7bf1e6253af08"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=1f7dc23e975211107ac7bf1e6253af08^sys_idNOT INee94f7d697e211107ac7bf1e6253afce"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ee94f7d697e211107ac7bf1e6253afce","name":"plan","plan_signature":null}}</plan>
+        <snapshot>768448d8975339107ac7bf1e6253af4f</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee94f7d697e211107ac7bf1e6253afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:13</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_a_dad_joke</internal_name>
+        <label_cache>[{"name":"{{step[451e4b4d-21fe-43af-bdc7-49b1760ebb7b].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>GET a DAD JOKE</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="GET a DAD JOKE">1f7dc23e975211107ac7bf1e6253af08</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e94b7d697e211107ac7bf1e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0e94b7d697e211107ac7bf1e6253afe1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>5294f7d697e211107ac7bf1e6253af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">da94f7d697e211107ac7bf1e6253af2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0e94b7d697e211107ac7bf1e6253afe1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>9e94f7d697e211107ac7bf1e6253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1a94f7d697e211107ac7bf1e6253af28</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>0e94b7d697e211107ac7bf1e6253afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>9694f7d697e211107ac7bf1e6253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</table>
+        <value>{{step[1b8d2dee-f12f-4dd9-9465-fb14958ffdb0].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>0e94b7d697e211107ac7bf1e6253afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>1e94f7d697e211107ac7bf1e6253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>0e94b7d697e211107ac7bf1e6253afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>5a94f7d697e211107ac7bf1e6253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=0e94b7d697e211107ac7bf1e6253afe1^sys_idNOT IN0294b7d697e211107ac7bf1e6253affa,4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</action>
+        <cid>1b8d2dee-f12f-4dd9-9465-fb14958ffdb0</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>0294b7d697e211107ac7bf1e6253affa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0294b7d697e211107ac7bf1e6253affa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0294b7d697e211107ac7bf1e6253affa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>0694f7d697e211107ac7bf1e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"R7UfaahVfFd"},{"name":"joke","children":[],"type":"string","jpath":"$.joke","previewValue":"My dog used to chase people on a bike a lot. It got so bad I had to take his bike away."},{"name":"status","children":[],"type":"string","jpath":"$.status","previewValue":"200"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0294b7d697e211107ac7bf1e6253affa</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>c694f7d697e211107ac7bf1e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>{&#13;
+  "id": "R7UfaahVfFd",&#13;
+  "joke": "My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",&#13;
+  "status": 200&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0294b7d697e211107ac7bf1e6253affa^id=0294b7d697e211107ac7bf1e6253affa"/>
+    <sys_element_mapping action="delete_multiple" query="id=0294b7d697e211107ac7bf1e6253affa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>0294b7d697e211107ac7bf1e6253affa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8294f7d697e211107ac7bf1e6253af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>0294b7d697e211107ac7bf1e6253affa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>ce94f7d697e211107ac7bf1e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[451e4b4d-21fe-43af-bdc7-49b1760ebb7b].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>0294b7d697e211107ac7bf1e6253affa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>0e94f7d697e211107ac7bf1e6253af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0294b7d697e211107ac7bf1e6253affa"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0294b7d697e211107ac7bf1e6253affa^sys_idNOT INce94b7d697e211107ac7bf1e6253affe"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD0a94b7d695e2111096269678a70711fc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0a2534f9-6c8d-41d3-8a18-200e6cf67e6d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">0294b7d697e211107ac7bf1e6253affa</model>
+        <model_id>0294b7d697e211107ac7bf1e6253affa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0294b7d697e211107ac7bf1e6253affa</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>ce94b7d697e211107ac7bf1e6253affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0294b7d697e211107ac7bf1e6253affa^sys_idNOT IN8694f7d697e211107ac7bf1e6253af04"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>0294b7d697e211107ac7bf1e6253affa</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8694f7d697e211107ac7bf1e6253af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0294b7d697e211107ac7bf1e6253affa^sys_idNOT IN8a94f7d697e211107ac7bf1e6253af02"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0294b7d697e211107ac7bf1e6253affa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8a94f7d697e211107ac7bf1e6253af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</action>
+        <cid>451e4b4d-21fe-43af-bdc7-49b1760ebb7b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>4e94b7d697e211107ac7bf1e6253afe5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>0694b7d697e211107ac7bf1e6253aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>0a94b7d697e211107ac7bf1e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>4294b7d697e211107ac7bf1e6253aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>https://icanhazdadjoke.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>4694b7d697e211107ac7bf1e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8294b7d697e211107ac7bf1e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8a94b7d697e211107ac7bf1e6253aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>8e94b7d697e211107ac7bf1e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>c694b7d697e211107ac7bf1e6253aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>ca94b7d697e211107ac7bf1e6253aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"User-Agent","value":"me-getJoke-app﻿"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4e94b7d697e211107ac7bf1e6253afe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>ce94b7d697e211107ac7bf1e6253aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4e94b7d697e211107ac7bf1e6253afe5"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0e94b7d697e211107ac7bf1e6253afe1^sys_idNOT IN1a94f7d697e211107ac7bf1e6253af0a,1a94f7d697e211107ac7bf1e6253af28,da94f7d697e211107ac7bf1e6253af2e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD0694f7d692e211102672442c45657c08,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=1b8d2dee-f12f-4dd9-9465-fb14958ffdb0,sourceType=step,sourceUiUniqueId=0a2534f9-6c8d-41d3-8a18-200e6cf67e6d,uiType=object,uiTypeLabel=Object,uiUniqueId=cb9f07a2-6ac9-4b2b-a7e0-c957116d831e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</model>
+        <model_id>0e94b7d697e211107ac7bf1e6253afe1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>1a94f7d697e211107ac7bf1e6253af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a94f7d697e211107ac7bf1e6253af0a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a94f7d697e211107ac7bf1e6253af0a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=6e7e20bd-b405-46fc-bcd1-34ad35047ea6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</model>
+        <model_id>0e94b7d697e211107ac7bf1e6253afe1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>1a94f7d697e211107ac7bf1e6253af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a94f7d697e211107ac7bf1e6253af28"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a94f7d697e211107ac7bf1e6253af28"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=69467141-ddba-42f0-98cd-56c64f6c31fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</model>
+        <model_id>0e94b7d697e211107ac7bf1e6253afe1</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>da94f7d697e211107ac7bf1e6253af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=da94f7d697e211107ac7bf1e6253af2e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=da94f7d697e211107ac7bf1e6253af2e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0e94b7d697e211107ac7bf1e6253afe1^sys_idNOT INd694f7d697e211107ac7bf1e6253af37"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="GET a DAD JOKE">0e94b7d697e211107ac7bf1e6253afe1</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>d694f7d697e211107ac7bf1e6253af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d694f7d697e211107ac7bf1e6253af37"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1^sys_idNOT IN1e94f7d697e211107ac7bf1e6253af2d,1e94f7d697e211107ac7bf1e6253af31,5a94f7d697e211107ac7bf1e6253af27"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>1e94f7d697e211107ac7bf1e6253af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>1e94f7d697e211107ac7bf1e6253af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-17 16:06:11</sys_created_on>
+        <sys_id>5a94f7d697e211107ac7bf1e6253af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adding Joke to ServiceNOW" source="99bc4afa975211107ac7bf1e6253afc5">99bc4afa975211107ac7bf1e6253afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adding Joke to ServiceNOW">99bc4afa975211107ac7bf1e6253afc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 16:06:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0e94b7d697e211107ac7bf1e6253afe1"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>1f7dc23e975211107ac7bf1e6253af08</sys_id>
+        <latest_snapshot>0e94b7d697e211107ac7bf1e6253afe1</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
